@@ -1,0 +1,16 @@
+test/
+node_modules/
+coverage/
+samples/
+.editorconfig
+.eslintignore
+.eslintrc
+.jshintrc
+.nsprc
+CHANGELOG
+readme.hbs
+README.hbs
+sftp-config.json
+.DS_Store
+gruntfile.js
+readme.hbs

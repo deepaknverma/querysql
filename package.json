@@ -1,0 +1,42 @@
+{
+  "name": "querysql",
+  "version": "1.0.0",
+  "description": "node wrapper to call db stored proc based on user input and validate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "cover": "istanbul cover --report cobertura --report html _mocha -- -R spec",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "revision": "node -e 'console.log(require(\"./package.json\").version);'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git clone ssh://git@git.hometrack.com.au:7999/apptool/app-proc.git"
+  },
+  "keywords": [],
+  "author": "Deepak Verma <info@deepakverma.com.au> (http://www.deepakverma.com.au)",
+  "license": "MIT",
+  "dependencies": {
+    "errs": "0.3.2",
+    "is-empty": "1.0.0",
+    "moment": "2.16.0",
+    "mssql": "3.3.0",
+    "validator": "6.1.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-datetime": "1.4.1",
+    "clone": "2.0.0",
+    "eslint": "3.10.2",
+    "grunt": "^1.0.1",
+    "grunt-loop-mocha": "1.2.2",
+    "grunt-mocha-test": "0.13.2",
+    "istanbul": "0.4.5",
+    "mocha": "3.1.2",
+    "should": "11.1.1",
+    "sinon": "1.17.6",
+    "uuid": "2.0.3",
+    "xunit-file": "1.0.0"
+  }
+}

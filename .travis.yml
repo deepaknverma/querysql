@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6.0'
+addons:
+  hosts:
+    - mysql
+    - hare
+services:
+  - rabbitmq
+install:
+    - npm install

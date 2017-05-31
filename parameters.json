@@ -1,0 +1,25 @@
+{
+  "input": [
+    {
+      "fieldname" : "providerCode", 
+      "datatype": "VarChar",
+      "required": true,
+      "isNull" : true
+    },
+    {
+      "fieldname" : "test", 
+      "datatype": "VarChar",
+      "required": false,
+      "isNull" : true
+    }    
+  ],
+  "output": [
+    {
+      "fieldname" : "errorMsg", 
+      "datatype": "VarChar",
+      "length": 1000,
+      "required": true
+    }
+  ],
+  "storedProcedure": "app.proc_getProviderByCode"
+}
